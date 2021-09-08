@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="frame_id" default="/scan"/>
+  <arg name="scanner_ip" default="192.168.1.250"/>
+
+  <!-- Driver -->
+  <node pkg="bea_scanner" type="scanner_node" name="scanner_node" respawn="true" output="screen">
+    <param name="frame_id" value="$(arg frame_id)"/>
+    <param name="scanner_ip" value="$(arg scanner_ip)"/>
+  </node>
+
+  <!-- RVIZ -->
+  <node pkg="rviz" type="rviz" name="$(anon rviz)" respawn="false" output="screen" args="-d $(find bea_scanner)/rviz/rviz.rviz"/>
+
+</launch>

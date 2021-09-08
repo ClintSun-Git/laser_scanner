@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: bea_scanner
+Description: Description of bea_scanner
+Version: 1.0.0
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib -lscanner_driver
+Requires: roscpp sensor_msgs std_msgs

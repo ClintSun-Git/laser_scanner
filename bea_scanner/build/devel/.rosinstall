@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/clint/catkin_ws/src/bea_scanner/build/devel/setup.sh
