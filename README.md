@@ -46,6 +46,3 @@ Run driver example and test the driver library, firstly compile the driver:
     $ make
 
 This builds a SHARED library which can be used in your program. 
-
-![](https://github.com/ClintSun-Git/laser_scanner/blob/main/screen%20RViz%20%26%20terminal%20%202104.png)
-
