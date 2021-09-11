@@ -1,7 +1,7 @@
 LiDAR Scanner Driver
 ===============================
 
-The driver is developed by C++ and based upon boost ASIO library for TCP/UDP transport.
+The driver is developed by C++ and based upon boost ASIO library for TCP/UDP communication.
 
 The driver contains a ROS-Node interface to the Robot Operating System, and the driver example, was tested on Ubuntu 16 and ROS Kinetic environment.
 
@@ -48,4 +48,7 @@ Run driver example and test the driver library, firstly compile the driver:
 This builds a SHARED library which can be used in your program. 
 
 
+![](https://raw.githubusercontent.com/ClintSun-Git/laser_scanner/main/screen%20RViz%20%26%20terminal%20%202104.png)
+
+![](https://raw.githubusercontent.com/ClintSun-Git/laser_scanner/main/screen%20RViz%202104.png)
 
