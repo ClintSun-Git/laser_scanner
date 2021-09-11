@@ -51,5 +51,3 @@ This builds a SHARED library which can be used in your program.
 ![](https://raw.githubusercontent.com/ClintSun-Git/laser_scanner/main/screen%20RViz%20%26%20terminal%20%202104.png)
 
 ![](https://raw.githubusercontent.com/ClintSun-Git/laser_scanner/main/screen%20RViz%202104.png)
-
-Clint Sun xlsun0106@163.com
